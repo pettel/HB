@@ -37,7 +37,7 @@
   left: 30%;
 }
 
-.number1:hover {
+.number1:hover, ;active{
   color: green;
 }
 
@@ -45,7 +45,7 @@
   left: 75%;
 }
 
-.number2:hover {
+.number2:hover, :active{
   color: yellow;
 }
 
@@ -53,7 +53,7 @@
   left: 48%;
 }
 
-.number3:hover {
+.number3:hover, :active{
   color: red;
 }
 
@@ -61,11 +61,11 @@
   left: 90%;
 }
 
-.number4:hover {
+.number4:hover, :active{
   color: blue;
 }
 
-.number5:hover {
+.number5:hover, :active{
   color: rgb(58, 129, 250);
 }
 
@@ -77,7 +77,7 @@
   left: 25%;
 }
 
-.number6:hover {
+.number6:hover, :active{
   color: orange;
 }
 
@@ -85,11 +85,11 @@
   left: 20%;
 }
 
-.number7:hover {
+.number7:hover, :active{
   color: purple;
 }
 
-.number9:hover {
+.number9:hover, :active{
   color: yellow;
 }
 
