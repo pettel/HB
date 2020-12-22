@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  font-size: 62.5%;
+  display: border-box;
+  font-family: sans-serif;
+  font-weight: bold;
+  background-color: black;
+}
+
+.numbers {
+  font-size: 12rem;
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  position: absolute;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.numbers div {
+  margin-top: 1px;
+  margin-bottom: 1px;
+  width: 100vw;
+  position: relative;
+}
+
+.numbers span {
+  position: relative;
+  font-size: 9rem;
+}
+
+.number1 {
+  left: 30%;
+}
+
+.number1:hover {
+  color: green;
+}
+
+.number2 {
+  left: 75%;
+}
+
+.number2:hover {
+  color: yellow;
+}
+
+.number3 {
+  left: 48%;
+}
+
+.number3:hover {
+  color: red;
+}
+
+.number4 {
+  left: 90%;
+}
+
+.number4:hover {
+  color: blue;
+}
+
+.number5:hover {
+  color: rgb(58, 129, 250);
+}
+
+.number5 {
+  left: 10%;
+}
+
+.number6 {
+  left: 25%;
+}
+
+.number6:hover {
+  color: orange;
+}
+
+.number7 {
+  left: 20%;
+}
+
+.number7:hover {
+  color: purple;
+}
+
+.number9:hover {
+  color: yellow;
+}
+
+.number9 {
+  left: 5%;
+}
+
+@media screen and (max-width: 450px) {
+  .numbers div {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  .number4 {
+    left: 85%;
+  }
+}
